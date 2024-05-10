@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>filter-def</title>
+  </head>
+  <body>
+    <div class="wrapper-products--slider">
+      <!-- <div class="certificat-fixed"></div> -->
+      <div class="slider">
+        <div class="slides-wrapper">
+          <div class="slide prod ona category-1">
+            <img class="slide-img slide-1" src="/img/produkty/1.jpg" alt="" />
+          </div>
+          <div class="slide prod ona category-1">
+            <img class="slide-img slide-2" src="/img/produkty/2.jpg" alt="" />
+          </div>
+          <div class="slide prod ona category-2">
+            <img class="slide-img slide-3" src="/img/produkty/3.jpg" alt="" />
+          </div>
+          <div class="slide prod on category-2">
+            <img class="slide-img slide-4" src="/img/produkty/4.jpg" alt="" />
+          </div>
+          <div class="slide prod ona category-2">
+            <img class="slide-img slide-5" src="/img/produkty/5.jpg" alt="" />
+          </div>
+          <div class="slide prod kids category-1">
+            <img class="slide-img slide-6" src="/img/produkty/6.jpg" alt="" />
+          </div>
+          <div class="slide prod kids category-1">
+            <img class="slide-img slide-7" src="/img/produkty/7.jpg" alt="" />
+          </div>
+          <div class="slide prod ona kids category-2">
+            <img class="slide-img slide-8" src="/img/produkty/8.jpg" alt="" />
+          </div>
+          <div class="slide prod on category-1">
+            <img class="slide-img slide-9" src="/img/produkty/9.jpg" alt="" />
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+
+        <div class="dots">
+          <!-- creat in JS -->
+        </div>
+      </div>
+
+      <!-- - -->
+
+      <div class="category">
+        <div class="cat-head">
+          <div class="cat-title-wrapper">
+            <span class="cat-title color-text">Produkty</span>
+            <span class="cat-title">dla niej, dla niego i dla dziecka</span>
+          </div>
+          <div class="form-wrapper">
+            <select
+              title="kategoria"
+              name="kategoria"
+              id="kat-prod"
+              class="forma-kat"
+            >
+              <option value="all">Wybierz</option>
+              <option value="ona">Ona</option>
+              <option value="on">On</option>
+              <option value="kids">Dziecko</option>
+            </select>
+          </div>
+        </div>
+        <div class="cat-filteredCat">
+          <div class="category-item category-1">
+            <div class="item-img item-img-category-1"></div>
+            <span class="item-text">category-1</span>
+          </div>
+          <div class="category-item category-2">
+            <div class="item-img item-img-category-2"></div>
+            <span class="item-text">category-2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
